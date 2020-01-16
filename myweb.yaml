@@ -19,7 +19,7 @@ spec:
       - image: 192.168.1.81:5000/justme/myweb:1
         imagePullPolicy: Always
         name: myweb
-
+        
 ---
 apiVersion: v1
 kind: Service
